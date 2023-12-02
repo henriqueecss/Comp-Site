@@ -1,0 +1,25 @@
+{
+    "card-item": [
+        {
+            "id": 1,
+            "img": "img/manager.png",
+            "nomeUser": "Francisco Andrade", 
+            "depoimentoUser": "Conheci a SecureLife há dois anos e desde então meus dias têm sido uma maravilha, atendimento e suporte 100% efetivo e rápido, sem contar que eles cobrem valor integral do seu bem sem desconto algum.",
+            "estrelas": 5
+        },
+        {
+            "id": 2,
+            "img": "img/manager.png",
+            "nomeUser": "Maria Fernanda Soares", 
+            "depoimentoUser": "A SecureLife mudou minha vida, antes eu vivia com medo de ser furtada, porém após conhece a Secure, nunca mais tive problemas com isso, fora o preço mais que acessível dos serviços",
+            "estrelas": 5
+        },
+        {
+            "id": 3,
+            "img": "img/manager.png",
+            "nomeUser": "Maurício Fake API", 
+            "depoimentoUser": "Nunca conheci antes uma agência de seguros tão profissional e inclusiva quanto a SecureLife, me sinto em casa, o carinho, paciência e atenção da empresa fazem-me sentir como se eu fosse um cliente único!",
+            "estrelas": 5
+        }
+    ]
+}

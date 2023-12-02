@@ -38,6 +38,20 @@ p{
 .btn:hover{
     background-color: #3580db;
 }
+.btnDelete{
+    margin-bottom: 15px;
+    background-color: rgb(221, 37, 33);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+
+}
+.btnDelete:hover{
+    background-color: rgb(219, 100, 97);
+}
 @keyframes animate-outline {
     from{
         outline: 0px solid #4f9bf98a;
