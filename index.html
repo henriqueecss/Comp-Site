@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link css-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Website html css e js</title>
+</head>
+<body>
+    <!--header-->
+    <header style="background-image: url('img/background-home.jpg');">
+        <!--container-->
+        <div class="container">
+            <nav>
+                <a      href="index.html">
+                    <img src="img/comp2.png" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="serviços.html">Serviços</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>SecureLife</h1>
+                    <p>A melhor asseguradora para você</p>
+                    <a href="contato.html" class="btn">Entre Em Contato</a>
+                </div>
+            </section>
+        </div>
+        <!--end-container-->
+    </header>
+    <!--end-header-->
+    <!--Conquiste-->
+    <section class="conquiste">
+        <!--container-->
+        <div class="container">
+            <div class="conquiste-text">
+                <h3>Conquiste sua tranquilidade completa</h3>
+                <p>
+                    Diversidade em setores de seguros, para você relaxar e aproveitar a vida
+                </p>
+                <a href="contato.html" class="btn animate-btn">Entre em Contato</a>
+            </div>
+            <div class="conquiste-img">
+                <img src="img/img-1.png" alt="">    
+            </div>
+        </div>
+        <!--endContainer-->
+    </section>
+    <!--endConquiste-->
+
+    <!--Conquiste2-->
+    <section class="conquiste">
+        <!--container-->
+        <div class="container">
+            <div class="conquiste-img">
+                <img src="img/img-2.png" alt="">    
+            </div>
+            <div class="conquiste-text">
+                <h3>Conseguir um seguro para seu carro, residência, saúde e muito mais, nunca foi tão facil</h3>
+                <p>
+                    Investir em seguros é investir em tranquilidade e segurança para você, sua família e seus bens. Não deixe a imprevisibilidade da vida afetar seu bem-estar e sua prosperidade. Consulte-nos para encontrar a melhor solução para suas necessidades específicas e viva com a certeza de estar protegido em todos os momentos.
+                </p>
+                <a href="contato.html" class="btn animate-btn">Entre em Contato</a>
+            </div>
+        </div>
+        <!--endContainer-->
+    </section>
+    <!--endConquiste2-->
+
+    <!--Depoimentos-->
+    <section class="depoimentos">
+        <div class="container">
+            <h3>Nossos Depoimentos</h3>
+            <p>
+                Saiba os feedbacks de nossos clientes fiéis</p>
+            <div class="cards">
+                <!--1-->
+                <div class="card-item">
+                    <img src="img/manager.png" alt="Cesar">
+                    <p class="nome-user">Francisco Andrade</p>
+                    <p class="depoimento-user">Conheci a SecureLife há dois anos e desde então meus dias têm sido uma maravilha, atendimento e suporte 100% efetivo e rápido, sem contar que eles cobrem valor integral do seu bem sem desconto algum.</p>
+                        <div class="estrelas">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                </div>
+                <!--1-->
+                
+                <!--2-->
+                <div class="card-item">
+                    <img src="img/manager.png" alt="Cesar">
+                    <p class="nome-user">Maria Fernanda Soares</p>
+                    <p class="depoimento-user">A SecureLife mudou minha vida, antes eu vivia com medo de ser furtada ou de acontecer alguma tragédia na minha vida e eu ter prejuízos inestimáveis, porém após conhece a Secure, nunca mais tive problemas com isso, fora o preço mais que acessível dos serviços</p>
+                        <div class="estrelas">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                </div>
+                <!--2-->
+
+                <!--2-->
+                <div class="card-item">
+                    <img src="img/manager.png" alt="Cesar">
+                    <p class="nome-user">Maurício Antunes</p>
+                    <p class="depoimento-user">Nunca conheci antes uma agência de seguros tão profissional e inclusiva quanto a SecureLife, me sinto em casa, o carinho, paciência e atenção da empresa fazem-me sentir como se eu fosse um cliente único!</p>
+                        <div class="estrelas">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                </div>
+                <!--2-->
+            </div>
+        </div>
+    </section>
+    <!--endDepoimentos-->
+
+    <!--parceiros-->
+    <section class="parceiros">
+        <div class="container">
+            <h3>Nossos Parceiros</h3>
+            <p>Nosso serviços são reconhecidos e apoiados por inúmeras empresas de qualidade</p>
+            <div>
+                <img src="img/apple.png" alt="">
+                <img src="img/google.png" alt="">
+                <img src="img/slack.png">
+                <img src="img/microsoft.png" alt="">
+
+            </div>
+        </div>
+    </section>
+    <!--EndParceiros-->
+
+    <!--Conquiste3-->
+    <section class="conquiste">
+        <!--container-->
+        <div class="container">
+            <div class="conquiste-text">
+                <h3>Nunca mais fique sem rumo caso aconteça algum imprevisto na sua vida</h3>
+                <p>
+                    Com uma simples mensagem você pode desfrutar dos nossos serviços em toda região Sul e Sudeste
+                </p>
+                <a href="contato.html" class="btn animate-btn">Entre em Contato</a>
+            </div>
+            <div class="conquiste-img">
+                <img src="img/security.png" alt="">    
+            </div>
+        </div>
+        <!--endContainer-->
+    </section>
+    <!--endConquiste3-->    
+
+        <!--footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="links">
+                    <a href="https://www.instagram.com/henriqueecss/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/henrique-soares-28b482281/"><i class="fa fa-linkedin"></i> </a>
+                    <a href="https://github.com/henriqueecss"><i class="fa fa-github"></i> </a>
+                </div>
+                <p>Desenvolvido por Henrique César</p>
+            </div>
+        </footer>
+        <!--endfooter-->
+        <script src="js/main.js"></script>
+
+</body>
+</html>

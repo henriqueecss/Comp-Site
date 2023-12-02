@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link css-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contato | Website html css e js</title>
+</head>
+<body>
+    <!--header-->
+    <header style="background-image: url('img/background-contacto.jpg');">
+        <!--container-->
+        <div class="container">
+            <nav>
+                <a      href="index.html">
+                    <img src="img/comp2.png" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="serviços.html">Serviços</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">  
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Nos contate</h1>
+                    <p>Entre em contato com a nossa equipe, eles estarão de prontidão para te atender da melhor forma possível! </p>
+            </section>
+        </div>
+        <!--end-container-->
+    </header>
+    <!--end-header-->
+    
+    <!--contato-->
+    <section class="contato">
+        <div class="container">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.0997688554253!2d-44.977304459182896!3d-21.227891982613908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9ffdde831d710d%3A0x49bf82e78ef962c7!2sDepartamento%20de%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1701455271999!5m2!1spt-BR!2sbr" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contato-info">
+                <div class="left-side">
+                    <div>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p>Av. Central UFLA - Centro, Lavras - MG, 37200-000</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p>henrique.soares1@compjunior.com.br</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p>+55(37)99857-4951</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p>+55(37)3216-3592</p>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <form action="">
+                        <input type="text" placeholder="Nome" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="text" placeholder="Assunto" required>
+                        <textarea cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                        <button class="btn">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end Contato-->
+    
+        <!--footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="links">
+                    <a href="#"><i class="fa fa-facebook"></i> </a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i> </a>
+                    <a href="#"><i class="fa fa-github"></i> </a>
+                </div>
+                <p>Desenvolvido por Henrique César</p>
+            </div>
+        </footer>
+        <!--endfooter-->
+        <script src="js/main.js"></script>
+
+</body>
+</html>
